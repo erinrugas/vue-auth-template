@@ -1,46 +1,45 @@
 # vue-auth-template
+This is my starter template for Login, Register and Forgot Password using Vue 3 in Vite with Typescript, Tailwind and simple form validation.
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+## Installation
+Clone this repository
+```bash
+git clone https://github.com/erinrugas/vue-auth-template.git
 ```
 
-### Compile and Hot-Reload for Development
+go to vue-auth-template directory.
 
-```sh
-npm run dev
-```
+In the project directory, you can run:
 
-### Type-Check, Compile and Minify for Production
+### `npm install`
+This will install all the dependencies of the app.
 
-```sh
-npm run build
-```
+### `npm run dev`
 
-### Lint with [ESLint](https://eslint.org/)
+Open your browser and go to [http://localhost:5173](http://localhost:5173).
 
-```sh
-npm run lint
-```
+The page will reload if you make any changes on the code
+
+### `npm run build`
+
+This will build the app for production.
+
+### `npm run preview`
+
+This will preview your build locally by open your browser and go to [http://localhost:4173](http://localhost:4173).
+
+
+for more info about deploying go to [Vite](https://vitejs.dev/guide/static-deploy.html) website.
+
+## Screenshots
+
+#### Login Form w/ invalid email validation
+#### *NOTE: to show this email error message, change the input type from "email" to "text"*
+
+![login](https://imgur.com/zh3YWop.png)
+
+#### Register Form
+![register](https://imgur.com/XOl3l1a.png)
+
+#### Forgot Password Form
+![forgot](https://i.imgur.com/UhPYXwO.png)
